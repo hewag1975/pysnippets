@@ -1,0 +1,19 @@
+---
+title: "Quarto in VS code"
+format: html
+---
+
+# Another Quarto document
+
+```{python}
+import pygrowsim.options as opt
+o = opt.growopts()
+o
+```
+
+
+```{r}
+library(mdsgrowsim)
+o = growOpts()
+o
+```
