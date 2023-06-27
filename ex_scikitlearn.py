@@ -1,6 +1,8 @@
 from sklearn.datasets import load_iris
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
+
+
 clf = RandomForestClassifier(random_state=0)
 X = [[1,  2,  3],  # 2 samples, 3 features
      [11, 12, 13]]
